@@ -1,10 +1,10 @@
-import Button from "react-bootstrap/Button";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
       <h1>Bird Travel Agency</h1>
-      <Button> Test </Button>
+      <Home />
     </div>
   );
 }
