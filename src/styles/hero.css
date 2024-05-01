@@ -1,0 +1,54 @@
+.hero-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  font-size: 100px;
+  font-weight: bolder;
+  letter-spacing: -8px;
+  line-height: 1;
+}
+
+.description {
+  color: #5e6282;
+  font-size: 20px;
+}
+
+.image-container,
+.text-container {
+  width: 35%;
+}
+
+.image-container {
+  margin-right: auto;
+}
+
+.text-container {
+  margin-left: auto;
+}
+
+.find-out-button {
+  background-color: orange;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.find-out-button:hover {
+  background-color: #181e4b;
+  color: white;
+}
